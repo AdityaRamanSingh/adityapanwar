@@ -35,6 +35,22 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+   {
+    title: "SWE Intern @Propero",
+    location: "Pune, India",
+    description: " Collaborated with team members to design and develop data visualisation features from scratch for the Shopify app. Implemented functionality using the Remix framework for enhanced user experience and Utilized GraphQL for seamless data querying . Integrated Shopify API and extensions to enable interactions with Shopify's platform. Designed and implemented UI components following Polaris design principles",
+    icon: React.createElement(CgWorkAlt),
+    date: "January 2024 - March 2024",
+  },
+    {
+    title: "Bachelor's of technology",
+    location: "Bhopal(M.P), India",
+    description:
+    "I'm pursuing B.tech in Computer Science with current cgpa of 8.39 and I'll graduate in 2025",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021 - 2025",
+  },
+   
   {
     title: "Intermediate",
     location:"Mandsaur(M.P),India",
@@ -43,22 +59,8 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2019-2020",
   },
-  {
-    title: "Bachelor's of technology",
-    location: "Bhopal(M.P), India",
-    description:
-    "I'm pursuing B.tech in Computer Science with current cgpa of 8.39 and I'll graduate in 2025",
-    icon: React.createElement(LuGraduationCap),
-    date: "2021 - 2025",
-  },
-  {
-    title: "SWE Intern @Propero",
-    location: "Pune, India",
-    description: " Collaborated with team members to design and develop data visualisation features from scratch for the Shopify app. Implemented functionality using the Remix framework for enhanced user experience and Utilized GraphQL for seamless data querying . Integrated Shopify API and extensions to enable interactions with Shopify's platform. Designed and implemented UI components following Polaris design principles",
-    icon: React.createElement(CgWorkAlt),
-    date: "January 2024 - March 2024",
-  },
-   
+
+ 
 ] as const;
 
 export const projectsData = [
