@@ -54,7 +54,7 @@ export const experiencesData = [
   {
     title: "SWE Intern @Propero",
     location: "Pune, India",
-    description: " Collaborated with team members to design and develop data visualisation features from scratch for the Shopify app. Implemented functionality using the Remix framework for enhanced user experience and Utilized GraphQL for seamless data querying . Integrated Shopify API and extensions to enable interactions with Shopify&apos,s platform. Designed and implemented UI components following Polaris design principles",
+    description: " Collaborated with team members to design and develop data visualisation features from scratch for the Shopify app. Implemented functionality using the Remix framework for enhanced user experience and Utilized GraphQL for seamless data querying . Integrated Shopify API and extensions to enable interactions with Shopify's platform. Designed and implemented UI components following Polaris design principles",
     icon: React.createElement(CgWorkAlt),
     date: "January 2024 - March 2024",
   },
