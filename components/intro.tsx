@@ -92,7 +92,7 @@ export default function Home() {
                         {/* GOOGLE DRIVE LINK */}
         <a
           className="group bg-white px-7 ml-3 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="https://drive.google.com/file/d/1TUPNDRHgZK8PQGgFhHCzwc2re7eWEvcT/view?usp=sharing"
+          href="https://drive.google.com/file/d/17jSESmWcd0jYe43lcKyjGN0CPhVShpUw/view?usp=sharing"
           download
         >
           Download CV{" "}
