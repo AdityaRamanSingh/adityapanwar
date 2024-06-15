@@ -70,8 +70,8 @@ export const projectsData = [
       "Developed an e-commerce application having user friendly UI and features.User auth with Email and password .Added features such as Checkout and Payment functionality,Admin can perform CRUD operation on products.",
     tags: ["React", "Firebase", "Tailwind", "Redux","Razorpay", ],
     imageUrl: shopnestImg,
-     githubUrl :"https://github.com/AdityaRamanSingh/ShopNest",
-     liveUrl:"https://shopn3st.netlify.app/"
+     githubUrl :"https://github.com/AdityaRamanSingh/shop-nest-ecommerce",
+     liveUrl:"https://shopnest-ecom.netlify.app/"
   },
   {
     title: "SpendWise",
@@ -79,7 +79,7 @@ export const projectsData = [
       "Created an efficient expense tracker platform with React, Node.js, Express, and MongoDB, featuring a user-friendly UI and robust database operations using Mongoose.",
     tags: ["React", "Node", "MongoDB", "Bootstrap", "chartjs"],
     imageUrl: spendwiseImg,
-    githubUrl:"https://github.com/AdityaRamanSingh/SpendWise",
+    githubUrl:"https://github.com/AdityaRamanSingh/spend-wise",
     liveUrl:"https://spendwise-expense.netlify.app/"
 
     
