@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Bachelor's of technology",
     location: "Bhopal(M.P), India",
     description:
-    "I'm pursuing B.tech in Computer Science with current cgpa of 8.39 and I'll graduate in 2025",
+    "I'm pursuing B.tech in Computer Science with current cgpa of 8.34 and I'll graduate in 2025",
     icon: React.createElement(LuGraduationCap),
     date: "2021 - 2025",
   },
