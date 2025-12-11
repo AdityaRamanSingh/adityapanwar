@@ -19,8 +19,12 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
 
-      <p className="mb-3 text-lg font-medium">
-        Software Engineer crafting scalable systems and data-driven solutions.
+      <p className="mb-3">
+        I’m Aditya, a software engineer who enjoys building clean, scalable systems
+        and thoughtful data workflows. I work across backend engineering,
+        automation, and cloud-native pipelines, turning raw data into fast,
+        reliable services. I focus on minimal, elegant solutions that make complex
+        processes feel effortless.
       </p>
     </motion.section>
   );
