@@ -101,9 +101,9 @@ export const skillsData = [
   "Kafka",
   "Google BigQuery",
   "Airflow",
-  "Pandas"
+  "Pandas",
   "Data Flow",
-  "Pub/Sub"
+  "Pub/Sub",
   "MySQL",
   "GraphQL",
   "MongoDB",
