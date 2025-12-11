@@ -5,7 +5,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { SiLeetcode } from "react-icons/si";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
@@ -63,11 +62,10 @@ export default function Home() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hey! , I&apos;m Aditya Raman Singh Panwar.</span> I'm a{" "}
-        <span className="font-bold">full-stack web developer</span> with{" "}
-        <span className="font-bold">1+ years</span> of experience in web development technologies. I enjoy
-        building <span className="italic">animated websites</span>. My focus is{" "}
-        <span className="underline bold">React (Next.js)</span>.
+        <span className="font-bold">Hey! I'm Aditya.</span>{" "}
+        <span className="block mt-2">
+          Software Engineer crafting scalable systems and data-driven solutions.
+        </span>
       </motion.h1>
 
       <motion.div
@@ -80,7 +78,7 @@ export default function Home() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-6  py-3 flex items-center gap-5  rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-gray-900 text-white px-6 py-3 flex items-center gap-5 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
@@ -89,15 +87,14 @@ export default function Home() {
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
-                        {/* GOOGLE DRIVE LINK */}
+
         <a
           className="group bg-white px-7 ml-3 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="https://drive.google.com/file/d/1WJbV8BHM9rBdZ2cd9cgpvzZZfgtdbheM/view?usp=sharing"
           download
         >
           Download CV{" "}
-          <HiDownload 
-          className="opacity-60 group-hover:translate-y-1 transition" />
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
         <a
@@ -106,15 +103,7 @@ export default function Home() {
           target="_blank"
         >
           <BsLinkedin />
-          
         </a>
-        {/* <a
-          className="bg-white p-4 text-gray-700 ml-3 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://leetcode.com/panwaradityaramansingh/"
-          target="_blank"
-        >
-<SiLeetcode/>
-        </a> */}
 
         <a
           className="bg-white p-4 text-gray-700 ml-3 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
